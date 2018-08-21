@@ -1,4 +1,4 @@
-// Anagrams
+// anagrams
 // Jerred Shepherd
 // O(M + N)
 
@@ -12,8 +12,8 @@ import java.util.Scanner;
 public class Anagrams {
 
     public static void main(String[] args) throws FileNotFoundException {
-        File inputFile = new File("anagrams.in.txt");
-        File outputFile = new File("anagrams.out.txt");
+        File inputFile = new File("anagrams.in");
+        File outputFile = new File("anagrams.out");
 
         LinkedList<StringPair> inputPairs = getStringPairsFromFile(inputFile);
         LinkedList<Boolean> anagramResults = checkIfEachPairIsAnagram(inputPairs);
